@@ -1,0 +1,3 @@
+https://pt.stackoverflow.com/questions/80180/passar-par%C3%A2metro-para-um-controller-c-mvc
+
+https://www.c-sharpcorner.com/article/crud-operations-in-mvc-using-entity-framework-with-ajax-call-jquery-and-all-val/

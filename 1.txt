@@ -1,0 +1,4 @@
+ @using (Ajax.BeginForm("ContarRegistros", "WlanText", new AjaxOptions { HttpMethod = "Get", InsertionMode = InsertionMode.Replace, UpdateTargetId = "divCount" }))
+                        {
+                            <div id="divCount"></div>
+                        }

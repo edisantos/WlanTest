@@ -1,0 +1,39 @@
+﻿<table class="table">
+    <tr>
+        <th>Operador</th>
+        <th>SN</th>
+        <th>TEST_END_TIME</th>
+        <th>MAC</th>
+        <th>WIFI_MAC</th>
+        <th>BT_MAC</th>
+        <th>RESULT</th>
+        <th>VEND_CODE</th>
+        
+       
+    </tr>
+    <tbody></tbody>
+</table>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //Chama o método ListaClientes que vai retornar o JSON
+        $.getJSON("/WlanTest/GetListaMagazizePartialView",
+            function (json) {
+                var tr;
+                //Anexa cada linha na tabela HTML
+                for (var i = 0; i < json.length; i++) {
+                    tr = $('<tr/>');
+                    tr.append("<td>" + json[i].Operador + "</td>");
+                    tr.append("<td>" + json[i].SN + "</td>");
+                    tr.append("<td>" + json[i].TEST_END_TIME + "</td>");
+                    tr.append("<td>" + json[i].MAC + "</td>");
+                    tr.append("<td>" + json[i].WIFI_MAC + "</td>");
+                    tr.append("<td>" + json[i].RESULT + "</td>");
+                    tr.append("<td>" + json[i].VEND_CODE + "</td>");
+                   
+
+                    $('table').append(tr);
+                }
+            });
+    });
+</script>

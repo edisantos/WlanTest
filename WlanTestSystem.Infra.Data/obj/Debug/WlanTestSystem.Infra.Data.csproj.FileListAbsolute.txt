@@ -1,0 +1,17 @@
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\WlanTestSystem.Infra.Data.dll.config
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\WlanTestSystem.Infra.Data.dll
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\WlanTestSystem.Infra.Data.pdb
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\EntityFramework.dll
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\WlanTestSystem.Application.dll
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\WlanTestSystem.Application.pdb
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\EntityFramework.xml
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.csprojAssemblyReference.cache
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.Migrations.InitialModel.resources
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.Migrations.InitialModel1.resources
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.csproj.GenerateResource.cache
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.csproj.CoreCompileInputs.cache
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.csproj.CopyComplete
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.dll
+F:\Projetos\WlanTestSystem\WlanTestSystem.Infra.Data\obj\Debug\WlanTestSystem.Infra.Data.pdb

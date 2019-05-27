@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{25430A9F-AA72-4FDC-B5A6-945A058D1C74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Application", "02.Application", "{6696DC81-8FB2-46C5-B9AE-4D48F0BA3DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{47730F2A-EE7E-495E-B01E-30E3B704A260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Infra", "04.Infra", "{FEE58449-D1A4-4B76-A78D-467D14A604A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1.Data", "4.1.Data", "{4C19BE08-8BEA-46B8-9951-975B00E59677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.CrossCutting", "4.2.CrossCutting", "{E0A27C68-E969-4D3D-A7D2-6EC287FF11ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WlanTestSystem.Infra.Data", "WlanTestSystem.Infra.Data\WlanTestSystem.Infra.Data.csproj", "{29D5C20B-E433-4122-B215-CCFE3C8D611C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WlanTestSystem.UI.WlanTestSystem", "WlanTestSystem.UI.WlanTestSystem\WlanTestSystem.UI.WlanTestSystem.csproj", "{13235C99-5507-46B9-B93F-D45100222DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WlanTestSystem.Application", "WlanTestSystem.Application\WlanTestSystem.Application.csproj", "{853B2684-10C5-4154-A5BA-B3202E8ECC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D5C20B-E433-4122-B215-CCFE3C8D611C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D5C20B-E433-4122-B215-CCFE3C8D611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D5C20B-E433-4122-B215-CCFE3C8D611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D5C20B-E433-4122-B215-CCFE3C8D611C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13235C99-5507-46B9-B93F-D45100222DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13235C99-5507-46B9-B93F-D45100222DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13235C99-5507-46B9-B93F-D45100222DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13235C99-5507-46B9-B93F-D45100222DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853B2684-10C5-4154-A5BA-B3202E8ECC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853B2684-10C5-4154-A5BA-B3202E8ECC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853B2684-10C5-4154-A5BA-B3202E8ECC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853B2684-10C5-4154-A5BA-B3202E8ECC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C19BE08-8BEA-46B8-9951-975B00E59677} = {FEE58449-D1A4-4B76-A78D-467D14A604A9}
+		{E0A27C68-E969-4D3D-A7D2-6EC287FF11ED} = {FEE58449-D1A4-4B76-A78D-467D14A604A9}
+		{29D5C20B-E433-4122-B215-CCFE3C8D611C} = {4C19BE08-8BEA-46B8-9951-975B00E59677}
+		{13235C99-5507-46B9-B93F-D45100222DD8} = {25430A9F-AA72-4FDC-B5A6-945A058D1C74}
+		{853B2684-10C5-4154-A5BA-B3202E8ECC6F} = {6696DC81-8FB2-46C5-B9AE-4D48F0BA3DDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DA80163-14BA-402C-BF34-945FDF9A26B3}
+	EndGlobalSection
+EndGlobal
