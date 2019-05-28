@@ -69,18 +69,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WlanTestSystem.Application\WlanTestSystem.Application.csproj">
-      <Project>{853B2684-10C5-4154-A5BA-B3202E8ECC6F}</Project>
-      <Name>WlanTestSystem.Application</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201905242314071_InitialModel.resx">
       <DependentUpon>201905242314071_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905250003226_InitialModel1.resx">
       <DependentUpon>201905250003226_InitialModel1.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WlanTestSystem.Application\WlanTestSystem.Application.csproj">
+      <Project>{853b2684-10c5-4154-a5ba-b3202e8ecc6f}</Project>
+      <Name>WlanTestSystem.Application</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

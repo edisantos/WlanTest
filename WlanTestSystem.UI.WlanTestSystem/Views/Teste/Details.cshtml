@@ -1,0 +1,90 @@
+﻿@model WlanTestSystem.Application.ModelView.WlanTestVerification
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>WlanTestVerification</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MagazineSize.Operador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MagazineSize.Operador)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TEST_END_TIME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TEST_END_TIME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MAC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MAC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WIFI_MAC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WIFI_MAC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BT_MAC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BT_MAC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RESULT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RESULT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VEND_CODE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VEND_CODE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusWlan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StatusWlan)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.WlanTesteVerificationId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

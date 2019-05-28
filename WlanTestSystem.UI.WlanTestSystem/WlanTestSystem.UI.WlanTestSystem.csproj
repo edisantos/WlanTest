@@ -170,7 +170,10 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TesteController.cs" />
+    <Compile Include="Controllers\WlanController.cs" />
     <Compile Include="Controllers\WlanTestController.cs" />
+    <Compile Include="Domain\Domain.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -245,6 +248,13 @@
     <Content Include="Views\WlanTest\Listar.cshtml" />
     <Content Include="Views\WlanTest\ListarMagazine.cshtml" />
     <Content Include="Views\WlanTest\GetListaMagazizePartialView.cshtml" />
+    <Content Include="Views\Wlan\EditarWlan.cshtml" />
+    <Content Include="Views\Teste\Create.cshtml" />
+    <Content Include="Views\Teste\Delete.cshtml" />
+    <Content Include="Views\Teste\Details.cshtml" />
+    <Content Include="Views\Teste\Edit.cshtml" />
+    <Content Include="Views\Teste\Index.cshtml" />
+    <Content Include="Views\Wlan\EditarAll.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

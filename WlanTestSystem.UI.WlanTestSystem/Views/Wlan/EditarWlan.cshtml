@@ -1,0 +1,84 @@
+﻿@model IEnumerable<WlanTestSystem.Application.ModelView.WlanTestVerification>
+
+@{
+    ViewBag.Title = "EditarWlan";
+}
+
+<h2>EditarWlan</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>Index</th>
+        <th>
+            @Html.DisplayNameFor(model => model.MagazineSize.Operador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TEST_END_TIME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WIFI_MAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BT_MAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RESULT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VEND_CODE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StatusWlan)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.Select((x, i) => new { Data = x, Index = i + 1 })) {
+    <tr>
+        <td>@item.Index</td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.MagazineSize.Operador)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.SN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.TEST_END_TIME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.MAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.WIFI_MAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.BT_MAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.RESULT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.VEND_CODE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data.StatusWlan)
+        </td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Data.WlanTesteVerificationId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Data.WlanTesteVerificationId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Data.WlanTesteVerificationId })
+        </td>*@
+    </tr>
+}
+
+</table>

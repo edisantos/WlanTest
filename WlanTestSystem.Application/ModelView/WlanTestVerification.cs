@@ -19,5 +19,6 @@ namespace WlanTestSystem.Application.ModelView
 
         public virtual MagazineSize MagazineSize { get; set; }
         
+       
     }
 }

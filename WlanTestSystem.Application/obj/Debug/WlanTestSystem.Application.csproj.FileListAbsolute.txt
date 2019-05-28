@@ -3,3 +3,4 @@ F:\Projetos\WlanTestSystem\WlanTestSystem.Application\bin\Debug\WlanTestSystem.A
 F:\Projetos\WlanTestSystem\WlanTestSystem.Application\obj\Debug\WlanTestSystem.Application.csproj.CoreCompileInputs.cache
 F:\Projetos\WlanTestSystem\WlanTestSystem.Application\obj\Debug\WlanTestSystem.Application.dll
 F:\Projetos\WlanTestSystem\WlanTestSystem.Application\obj\Debug\WlanTestSystem.Application.pdb
+F:\Projetos\WlanTestSystem\WlanTestSystem.Application\obj\Debug\WlanTestSystem.Application.csprojAssemblyReference.cache
