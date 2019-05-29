@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<h2>Teste</h2>
+
+<div class="container">
+   
+
+    <hr />
+    <div class="form-horizontal">
+        <div class="form-group">
+            <button type="button" class="btn btn-primary btnModal">
+                <span class="glyphicon glyphicon-print"> Print</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="Modal">
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Deseja fazer a impressão</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="DivImpressao">
+                        <label>Valor: 1</label>
+                        <label>Valor: 2</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning">YES</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/printThis.js"></script>
+<script>
+    $('.btnModal').click(function () {
+        $('#myModal').modal('show')
+    });
+   
+</script>
+<script>
+    $('.btn-warning').click(function () {
+        var print = document.getElementById('DivImpressao');
+        var WindowUrl = 'about:blank';
+        var uniqueName = new Date();
+        var windowName = 'Print' + uniqueName.getTime();
+        var printWindow = window.open(WindowUrl, windowName, 'left=50000,top=50000,width=0,height=0');
+        printWindow.document.write(print.innerHTML);
+        printWindow.document.close();
+        printWindow.focus();
+        printWindow.print();
+        printWindow.close();
+    });
+</script>
