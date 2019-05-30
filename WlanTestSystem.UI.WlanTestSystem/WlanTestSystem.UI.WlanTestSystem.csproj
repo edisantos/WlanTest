@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AjaxController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
@@ -257,6 +258,8 @@
     <Content Include="Views\Teste\Index.cshtml" />
     <Content Include="Views\Wlan\EditarAll.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Ajax\ListaAll.cshtml" />
+    <Content Include="Views\Ajax\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

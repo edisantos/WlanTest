@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Teste de lista</h2>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+@Ajax.ActionLink("All", "ListaAll", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "DivListasDados",
+    InsertionMode = InsertionMode.Replace
+})
+<span style="color:blue;font-size:30px">||</span>
+
+@Ajax.ActionLink("Top 3", "Top3", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "DivListasDados",
+    InsertionMode = InsertionMode.Replace
+})
+<span style="color:blue;font-size:30px">||</span>
+
+
+@Ajax.ActionLink("Bottom 3", "Bottom3", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "DivListasDados",
+    InsertionMode = InsertionMode.Replace
+})
+<span style="color:blue;font-size:30px"></span>
+<div id="DivListasDados">
+
+</div>
