@@ -9,7 +9,7 @@ namespace WlanTestSystem.Infra.Data.Contexto
     {
        
         public DataContexto()
-            :base(@"Data Source=DESKTOP-1Q2TUU2\LEMOSDATABASE;Initial Catalog=DemoDatabase;Integrated Security=True")
+            :base(@"add here your connection")
         {
 
         }
