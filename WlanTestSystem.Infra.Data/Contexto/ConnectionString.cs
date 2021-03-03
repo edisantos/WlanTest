@@ -10,7 +10,7 @@ namespace WlanTestSystem.Infra.Data.Contexto
         protected SqlCommand cmd;
         public SqlConnection OpenConexao()
         {
-            string str = string.Format(@"Data Source=DESKTOP-1Q2TUU2\LEMOSDATABASE;Initial Catalog=DemoDatabase;Integrated Security=True");
+            string str = string.Format(@"add here your connection string");
             con = new SqlConnection(str);
             if(con.State == System.Data.ConnectionState.Closed)
             {
